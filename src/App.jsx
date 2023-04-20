@@ -7,6 +7,8 @@ import Categoria from "./components/Categoria";
 import Carritos from "./components/Carritos";
 import Lenguajes from "./components/Lenguajes";
 import Opiniones from "./components/Opiniones";
+import { ListLibros } from "./components/ListLibros";
+
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
         <Routes>
           <Route path="/opiniones" element={<Opiniones />} />
         </Routes>
+        <Routes>
+          <Route path="/libros" element={<ListLibros />} />
+        </Routes>
+
       </main>
     </Router>
   );

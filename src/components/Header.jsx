@@ -14,8 +14,8 @@ function Header() {
           <Navbar.Brand href="/categorias">Categorias</Navbar.Brand>
           <Navbar.Brand href="/opiniones">Opiniones</Navbar.Brand>
           <Navbar.Brand href="/lenguajes">Lenguajes</Navbar.Brand>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="/libros">Libros</Navbar.Brand>
+
         </Container>
       </Navbar>
     </>
